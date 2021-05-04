@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+{{> head defaultPageTitle='Untitled'}}
+  </head>
+  <body class="article{{#with (or page.attributes.role page.role)}} {{{this}}}{{/with}}">
+{{> header}}
+{{> body}}
+{{> footer}}
+	<script src="https://files.stork-search.net/stork.js"></script>
+	<script>
+	    stork.register(
+	        'tdm', 
+	        'https://github.com/TheDataMine/the-examples-book/raw/staging/tdm.st'
+	    );
+	</script>
+  </body>
+</html>
