@@ -28,7 +28,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Build
-        run: gulp bundle
+        run: |
+          npm install
+          gulp bundle
 
       # Runs a set of commands using the runners shell
       - name: Release
