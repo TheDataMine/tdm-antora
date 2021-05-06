@@ -167,5 +167,13 @@
 .stork-close-button,
 .stork-wrapper-basic .stork-close-button {
   bottom: auto;
-  right: 25px;
+  right: 1px;
+}
+
+.stork-wrapper {
+  padding: 0rem;
+}
+
+.stork-attribution, .stork-wrapper-basic .stork-attribution {
+  background-color: white;
 }
