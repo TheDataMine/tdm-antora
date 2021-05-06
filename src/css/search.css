@@ -171,9 +171,10 @@
 }
 
 .stork-wrapper {
-  padding: 0rem;
+  padding: 0;
 }
 
-.stork-attribution, .stork-wrapper-basic .stork-attribution {
+.stork-attribution,
+.stork-wrapper-basic .stork-attribution {
   background-color: white;
 }
