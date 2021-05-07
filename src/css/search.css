@@ -69,9 +69,11 @@
 }
 
 .nav-panel-search .stork-output-visible {
-  left: 100%;
-  top: 0.75rem;
+  left: 110%;
+  top: 0;
   right: auto;
+  border: 1px solid black;
+  border-radius: 2px;
 }
 
 @media screen and (max-width: 768px) {
@@ -177,4 +179,9 @@
 .stork-attribution,
 .stork-wrapper-basic .stork-attribution {
   background-color: white;
+}
+
+.stork-results {
+  scrollbar-width: thin;
+  scrollbar-color: auto;
 }
