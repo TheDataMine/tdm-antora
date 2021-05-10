@@ -1,19 +1,44 @@
+.doc .admonitionblock .icon {
+  border-radius: .15rem !important;
+}
+
+.doc .admonitionblock.note .icon {
+  background-color: #217ee7 !important;
+}
+
 .admonitionblock.note .content {
   background-color: #217ee736 !important;
+}
+
+.doc .admonitionblock.tip .icon {
+  background-color: #41af46 !important;
 }
 
 .admonitionblock.tip .content {
   background-color: #41af4636 !important;
 }
 
-.admonitionblock.important .content {
-  background-color: #d32f2f36 !important;
+.doc .admonitionblock.important .icon {
+  background-color: #b94a48 !important;
 }
 
-.admonitionblock.warning .content {
-  background-color: #e1811436 !important;
+.admonitionblock.important .content {
+  background-color: #b94a4836 !important;
+}
+
+.doc .admonitionblock.caution .icon {
+  background-color: #c09853 !important;
 }
 
 .admonitionblock.caution .content {
-  background-color: #a0439c36 !important;
+  background-color: #c0985336 !important;
+}
+
+.doc .admonitionblock.warning .icon {
+  background-color: #41af46 !important;
+  color: #000 !important;
+}
+
+.admonitionblock.warning .content {
+  background-color: #41af4636 !important;
 }
