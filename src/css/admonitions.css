@@ -1,0 +1,19 @@
+.admonitionblock.note .content {
+	background-color: #217ee736 !important;
+}
+
+.admonitionblock.tip .content {
+	background-color: #41af4636 !important;
+}
+
+.admonitionblock.important .content {
+	background-color: #d32f2f36 !important;
+}
+
+.admonitionblock.warning .content {
+	background-color: #e1811436 !important;
+}
+
+.admonitionblock.caution .content {
+	background-color: #a0439c36 !important;
+}
