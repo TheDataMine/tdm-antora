@@ -35,10 +35,10 @@
 }
 
 .doc .admonitionblock.warning .icon {
-  background-color: #41af46 !important;
+  background-color: #d32f2f !important;
   color: #000 !important;
 }
 
 .admonitionblock.warning .content {
-  background-color: #41af4636 !important;
+  background-color: #d32f2f36 !important;
 }
