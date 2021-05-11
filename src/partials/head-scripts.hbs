@@ -6,11 +6,13 @@
     <script src="https://files.stork-search.net/stork.js"></script>
     <script>
 	MathJax = {
+		options: {
+			skipHtmlTags: ['script','noscript','style','textarea','pre','code', 'annotation', 'annotation-xml']
+		},
 		tex: {
 			inlineMath: [['$','$']], 
 			displayMath: [['$$', '$$']], 
-			processEscapes: true, 
-			skipTags: ["script","noscript","style","textarea","pre","code"]
+			processEscapes: true
 		},
 		svg: {
 			fontCache: 'global'
