@@ -1,3 +1,12 @@
+.navbar-brand .navbar-item + .navbar-item {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  flex-grow: 1;
+  -webkit-box-pack: end;
+  -moz-box-pack: end;
+  justify-content: end;
+}
+
 html.is-clipped--navbar {
   overflow-y: hidden;
 }
@@ -171,7 +180,6 @@ body {
   }
 
   .navbar,
-  .navbar-menu,
   .navbar-end {
     display: flex;
   }
@@ -248,15 +256,6 @@ body {
   .navbar-dropdown .navbar-item {
     padding: 0.5rem 3rem 0.5rem 1rem;
     white-space: nowrap;
-  }
-
-  .navbar-brand .navbar-item + .navbar-item {
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    flex-grow: 1;
-    -webkit-box-pack: end;
-    -moz-box-pack: end;
-    justify-content: end;
   }
 
   .navbar-brand {
