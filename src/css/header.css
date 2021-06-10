@@ -146,6 +146,15 @@ body {
     align-items: center;
     display: flex;
   }
+  
+  .navbar-brand .navbar-item + .navbar-item {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    flex-grow: 1;
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    justify-content: end;
+  }
 
   .navbar-menu {
     background: var(--navbar-menu-background);
