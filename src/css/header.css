@@ -146,7 +146,7 @@ body {
     align-items: center;
     display: flex;
   }
-  
+
   .navbar-brand .navbar-item + .navbar-item {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
