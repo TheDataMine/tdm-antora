@@ -177,6 +177,9 @@ body {
   }
 
   .navbar-menu {
+    flex-grow: 0;
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
     flex: auto;
   }
 
@@ -255,6 +258,12 @@ body {
     -webkit-box-pack: end;
     -moz-box-pack: end;
     justify-content: end;
+  }
+
+  .navbar-brand {
+    flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
   }
 
   .navbar-dropdown .navbar-item:last-child {
