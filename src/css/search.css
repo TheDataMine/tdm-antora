@@ -225,6 +225,12 @@
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 1023.5px) {
+  .meilisearch-autocomplete .dsb-dropdown-menu {
+    min-width: calc(90vw - 2.75rem) !important;
+  }
+}
+
 .meilisearch-autocomplete .dsb-dropdown-menu::before {
   display: block;
   position: absolute;
