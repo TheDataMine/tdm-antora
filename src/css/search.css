@@ -402,13 +402,13 @@
   display: block;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .meilisearch-autocomplete .docs-searchbar-suggestion .docs-searchbar-suggestion--subcategory-column {
     display: block;
   }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .meilisearch-autocomplete .docs-searchbar-suggestion .docs-searchbar-suggestion--subcategory-column {
     display: inline-block;
     width: auto;
@@ -440,7 +440,7 @@
   .meilisearch-autocomplete .docs-searchbar-suggestion .docs-searchbar-suggestion--content::before {
     display: none;
   }
-}
+} */
 
 .meilisearch-autocomplete .suggestion-layout-simple.docs-searchbar-suggestion {
   border-bottom: 1px solid #eee;
