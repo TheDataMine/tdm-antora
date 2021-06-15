@@ -43,6 +43,8 @@
         img.src = window.uiRootPath + '/img/octicons-16.svg#view-clippy'
         img.alt = 'copy icon'
         img.className = 'copy-icon'
+        img.width = '13.5'
+        img.height = '13.5'
         copy.appendChild(img)
       }
       ;(toast = document.createElement('span')).className = 'copy-toast'
