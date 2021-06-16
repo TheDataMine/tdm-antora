@@ -820,3 +820,21 @@ h1.page + aside.toc.embedded {
   hyphens: none;
   word-wrap: normal;
 }
+
+.doc h1 {
+  font-size: 2em !important;
+}
+
+.doc h2 {
+  font-size: 1.7em !important;
+}
+
+.doc h3 {
+  font-size: 1.4em !important;
+  font-weight: 500 !important;
+}
+
+.doc h4 {
+  font-size: 1.1em !important;
+  font-weight: 500 !important;
+}
