@@ -24,9 +24,9 @@
   --body-line-height: 1.15;
   --body-font-color: var(--color-jet-70);
   --body-font-family: -apple-system, blinkmacsystemfont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
-  --body-font-weight-bold: 500;
+  --body-font-weight-bold: 700;
   --monospace-font-family: san francisco mono, monaco, "Consolas", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
-  --monospace-font-weight-bold: 500;
+  --monospace-font-weight-bold: 700;
   /* base */
   --body-background: var(--color-white);
   --panel-background: var(--color-smoke-30);
