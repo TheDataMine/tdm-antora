@@ -253,3 +253,7 @@ html.is-clipped--nav {
   opacity: 0.9;
   font-weight: var(--body-font-weight-bold);
 }
+
+a.is-current {
+  font-weight: 700;
+}
