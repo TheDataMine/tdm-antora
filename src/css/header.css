@@ -147,7 +147,7 @@ body {
 }
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
-  .navbar-item.logo {
+  .navbar-item.logo-large {
     display: none !important;
   }
 
@@ -179,6 +179,10 @@ body {
 }
 
 @media screen and (max-width: 1023.5px) and (min-width: 481px) {
+  .navbar-item.logo-small {
+    display: none !important;
+  }
+
   .navbar-brand {
     height: inherit;
   }
@@ -207,6 +211,10 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  .navbar-item.logo-small {
+    display: none !important;
+  }
+  
   .navbar-burger {
     display: none;
   }
