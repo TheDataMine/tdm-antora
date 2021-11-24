@@ -151,8 +151,13 @@ body {
     display: none !important;
   }
 
+  .navbar-item.search {
+    padding: 0;
+  }
+
   .navbar-brand {
     height: inherit;
+    padding: 0;
   }
 
   .navbar-brand .navbar-item {
@@ -181,6 +186,10 @@ body {
 @media screen and (max-width: 1023.5px) and (min-width: 524px) {
   .navbar-item.logo-small {
     display: none !important;
+  }
+
+  .navbar-item.search {
+    padding: 0;
   }
 
   .navbar-brand {
