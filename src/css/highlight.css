@@ -84,3 +84,11 @@
 .hljs-strong {
   font-weight: var(--monospace-font-weight-bold);
 }
+
+.hljs-highlight1 {
+  background: rgb(121, 238, 226);
+}
+
+.hljs-highlight2 {
+  background: rgb(186, 130, 212);
+}
